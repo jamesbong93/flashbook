@@ -47,7 +47,7 @@ require_once __DIR__ . '/vendor/autoload.php';
         <!-- /.container -->
     </nav>
 	
-	<?php
+<!-- 	<?php
 	
 	
 $fb = new Facebook\Facebook([
@@ -64,7 +64,7 @@ $loginUrl = $helper->getLoginUrl('http://localhost/flashbook/fb-callback.php', $
 
 
 
-	?>
+	?> -->
 
 
 <div class = "container" >
