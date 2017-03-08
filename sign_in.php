@@ -35,37 +35,15 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
+           
             <div class="navbar-header">
                
                 <a class="navbar-brand" href="homepage.php">Flashbook</a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            
-            <!-- /.navbar-collapse -->
+           
         </div>
-        <!-- /.container -->
+       
     </nav>
-	
-<!-- 	<?php
-	
-	
-$fb = new Facebook\Facebook([
-  'app_id' => '102681176774682',
-  'app_secret' => '92f1fc315883fc50bbc9192b7b599555',
-  'default_graph_version' => 'v2.2',
-  ]);
-
-$helper = $fb->getRedirectLoginHelper();
-
-$permissions = ['email']; // Optional permissions
-$loginUrl = $helper->getLoginUrl('http://localhost/flashbook/fb-callback.php', $permissions);
-
-
-
-
-	?> -->
-
 
 <div class = "container" >
     <h1 align = "center">Flashbook</h1>
