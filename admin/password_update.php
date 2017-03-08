@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'C:\wamp\www\flashbook\connect_database.php';
+include '../connect_database.php';
 
 $admin_ID = $_POST["admin_ID"];
 $admin_email = $_POST["admin_email"];

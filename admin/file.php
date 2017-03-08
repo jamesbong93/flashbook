@@ -1,6 +1,6 @@
 <?php
 
-include 'C:\wamp\www\flashbook\connect_database.php';
+include '../connect_database.php';
 
 
 					$query_se = "SELECT * FROM purchase_history WHERE Read_check = 'no' ";

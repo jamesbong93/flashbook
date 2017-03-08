@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'C:\wamp\www\flashbook\connect_database.php';
+include '../connect_database.php';
 $admin_email = $_GET["admin_email"];
 include 'purchase_rowcounts.php';
 include 'today_rowcounts.php';

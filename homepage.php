@@ -349,7 +349,7 @@ else
 		
 		$user_id = $row_user["ID"];
 		
-		$query_view = "SELECT books.ISBN, COUNT(View_history.View_ID) AS NumberofView
+		$query_view = "SELECT ISBN, COUNT(View_history.View_ID) AS NumberofView
 						FROM View_history  JOIN books ON View_history.Book_ID=books.ISBN 
 						group by books.ISBN
 					   order by NumberofView DESC

@@ -2,7 +2,7 @@
 
 
 
-				include 'C:\wamp\www\flashbook\connect_database.php';
+				include '../connect_database.php';
 
 					$query_se = "SELECT * FROM purchase_history";
 					$result_se = $conn->query($query_se);

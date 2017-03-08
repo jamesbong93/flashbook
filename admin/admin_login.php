@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'C:\wamp\www\flashbook\connect_database.php';
+include '../connect_database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

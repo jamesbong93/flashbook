@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 require_once __DIR__ . '/vendor/autoload.php';
-include 'C:\wamp\www\flashbook\connect_database.php';
+include 'connect_database.php';
 $fb = new Facebook\Facebook([
   'app_id' => '102681176774682',
   'app_secret' => '92f1fc315883fc50bbc9192b7b599555',
