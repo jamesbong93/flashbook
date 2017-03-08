@@ -1,9 +1,9 @@
 <?php
 
 
-$servername = "localhost";
+$servername = "139.59.108.5";
 $server_username = "root";
-$server_password = "";
+$server_password = "James@321";
 $dbname = "flashbook";
 
 	// Create connection
